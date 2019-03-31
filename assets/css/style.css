@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-color:orange;
+    margin:0;
+    padding: 20px;
+    text-align: center;
+    border-bottom-style: outset;
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(173, 185, 206, 0.8);
+    color: white;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+
+body{
+    background:tan;
+}
+
+#instructions{
+    grid-column: 1/2;
+    padding: 20px;
+    background: red;
+}
+
+#score{
+    grid-column: 2/3;
+    grid-row: 1/5;
+    padding: 20px 20px 20px 20px;
+    background: teal;
+}
+.crystal-icon{
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+    padding: 10px;
+    background-color: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#button-1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR07Z0iD5rieK6mepbyphf92SnWCpAsQv0YxJPGFGEszrathUKEHA")
+}
+#button-2{
+    background-image: url("https://estore.eclipse.net.uk/WebRoot/Eclipse/Shops/thecrystalhealer/5470/A117/5364/C383/74EE/0A33/658A/F448/Titanium-quartz-13_m.jpg")
+}
+#button-3{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMJB29Yb7NbA0lhPO7LjRaolWa7Jjfk32Ty5ceZkiQM5xFHQqzmQ")
+}
+#button-4{
+    background-image: url("https://www.rd.com/wp-content/uploads/2017/08/13_crystal_Reasons-Why-You-Should-Give-Crystals-a-Try_364248173_Abra-Cadabraaa-380x254.jpg")
+}
